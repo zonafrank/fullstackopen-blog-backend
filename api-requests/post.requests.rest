@@ -1,9 +1,0 @@
-POST http://localhost:3003/api/blogs
-Content-Type: application/json
-
-{
-  "title": "The origin of mankind",
-  "author": "John Doe",
-  "url": "http://johndoeblog.com/the-origin-of-man.com",
-  "likes": 20
-}

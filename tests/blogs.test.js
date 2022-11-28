@@ -72,7 +72,6 @@ describe("author with most likes", () => {
     };
 
     const result = listHelper.mostLikes(blogs);
-    console.log(result);
     expect(result).toEqual(authorWithMostLikes);
   });
 });
