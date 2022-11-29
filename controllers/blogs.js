@@ -49,7 +49,6 @@ blogsRouter.put("/:id", async (request, response) => {
 
 blogsRouter.delete("/:id", async (request, response) => {
   const { user } = request;
-
   if (!user.id) {
     return response.status(401).json({ error: "invalid user" });
   }
