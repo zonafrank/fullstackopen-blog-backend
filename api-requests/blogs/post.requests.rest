@@ -26,7 +26,7 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imphb
 ###
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG5kb2UiLCJpZCI6IjYzODM3NWUyYWVlZjAxYzQzMTBhYThlNCIsImlhdCI6MTY2OTU2MjQzM30.XbAPjUC7VRFMWlvLTsX6S_UY_PtXoBghCXDrbPdS9Zg
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphbmVkb2UiLCJpZCI6IjYzODM3NWU4YWVlZjAxYzQzMTBhYThlNyIsImlhdCI6MTY3MDQyNjE2NiwiZXhwIjoxNjcwNDI5NzY2fQ.KuHJti6mflZYwLWigWYrRr1ZwK99SZ9YLqukxuNWuW0
 
 {
   "title": "The origin of the mankind",
@@ -47,4 +47,14 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impva
   "url": "http://janeoeblog.com/the-origin-trees",
   "likes": 0,
   "user": "638375e2aeef01c4310aa8e4"
+}
+
+###
+
+POST http://localhost:3003/api/blogs/63839da69970c0fc97b71513/comments
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphbmVkb2UiLCJpZCI6IjYzODM3NWU4YWVlZjAxYzQzMTBhYThlNyIsImlhdCI6MTY3MDQyNjE2NiwiZXhwIjoxNjcwNDI5NzY2fQ.KuHJti6mflZYwLWigWYrRr1ZwK99SZ9YLqukxuNWuW0
+
+{
+  "comment": "Great job as usual Jane. Keep it up."
 }
